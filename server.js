@@ -2,7 +2,7 @@ const express = require('express'); // import express
 const app = express();
 app.use(express.json());
 
-app.set('port', process.env.PORT || 8080);
+app.set('port', process.env.PORT || 3000);
 app.locals.title = 'Countries in Oceania'
 app.locals.countries = [
   { 
